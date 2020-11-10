@@ -14,6 +14,8 @@ const getFonts = () => Font.loadAsync({
 export default function App() {
   const [fontsLoaded, setFontsLoaded] = useState(false);
 
+
+
   if (fontsLoaded) {
     return (
         <NavigationContainer>
@@ -28,5 +30,7 @@ export default function App() {
       />
     )
   }
+
+  
 
 }
